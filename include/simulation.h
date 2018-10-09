@@ -1,8 +1,8 @@
-#include "map.h"
-#include <random>
-
 #ifndef EX8_SIMULATION
 #define EX8_SIMULATION
+
+#include <random>
+#include "map.h"
 
 class Simulation
 {

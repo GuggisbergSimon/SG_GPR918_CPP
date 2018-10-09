@@ -1,10 +1,12 @@
+#ifndef EX8_MAP
+#define EX8_MAP
+
+class GameObject;
+
 #include <constant.h>
 #include <array>
 #include <list>
-#include "gameobject.h"
-
-#ifndef EX8_MAP
-#define EX8_MAP
+#include "vector2d.h"
 
 class Map
 {

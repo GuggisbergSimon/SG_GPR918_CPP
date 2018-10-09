@@ -1,9 +1,12 @@
-#include <vector>
-#include "creature.h"
-#include "food.h"
-
 #ifndef EX8_GAMEOBJECTBUILDER
 #define EX8_GAMEOBJECTBUILDER
+
+class Simulation;
+class Creature;
+class Food;
+
+#include <vector>
+#include "vector2d.h"
 
 class GameObjectBuilder
 {

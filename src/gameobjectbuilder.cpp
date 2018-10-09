@@ -1,6 +1,8 @@
 #include "constant.h"
 #include "gameobjectbuilder.h"
 #include "simulation.h"
+#include "creature.h"
+#include "food.h"
 
 Creature* GameObjectBuilder::buildChild(Simulation& simulation, std::vector<Vector2D> positions)
 {

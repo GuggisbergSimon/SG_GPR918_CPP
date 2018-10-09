@@ -1,14 +1,10 @@
-#include "gameobject.h"
+#include "food.h"
 
-class Food : public GameObject
+Food::Food(Simulation* simulation) : GameObject(simulation)
 {
-public:
-	Food(Simulation* simulation) : GameObject(simulation)
-	{
-	}
+}
 
-	char getImage()
-	{
-		return 'F';
-	}
-};
+char Food::getImage()
+{
+	return 'F';
+}

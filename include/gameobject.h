@@ -1,9 +1,9 @@
-#include "vector2d.h"
-
 #ifndef EX8_GAMEOBJECT
 #define EX8_GAMEOBJECT
 
 class Simulation;
+
+#include "vector2d.h"
 
 class GameObject
 {

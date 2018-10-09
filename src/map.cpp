@@ -46,7 +46,6 @@ bool Map::gameObjectOfTypeExistAt(Vector2D position)
 	return gameObject != nullptr;
 }
 
-
 bool Map::gameObjectExistAt(Vector2D position)
 {
 	return map[position.x][position.y] != nullptr;

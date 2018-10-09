@@ -2,9 +2,6 @@
 #include "simulation.h"
 #include "gameobjectbuilder.h"
 
-Map map;
-
-
 Simulation::Simulation(int seed) : random(seed)
 {
 }
@@ -43,14 +40,6 @@ int Simulation::getValueRandom(int min, int max)
 	int randomValue = distribution(random);
 	return randomValue;
 }
-
-
-int nbrCreatures;
-int nbrHunters;
-int nbrFoodStuff;
-
-std::default_random_engine random;
-
 
 void Simulation::update()
 {

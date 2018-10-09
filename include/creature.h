@@ -1,7 +1,7 @@
-#include "gameobject.h"
-
 #ifndef EX8_CREATURE
 #define EX8_CREATURE
+
+#include "gameobject.h"
 
 class Creature : public GameObject
 {

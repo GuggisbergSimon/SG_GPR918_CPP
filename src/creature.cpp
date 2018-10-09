@@ -1,8 +1,8 @@
 #include <vector>
 #include "creature.h"
 #include "constant.h"
-#include "simulation.h"
 #include "gameobjectbuilder.h"
+#include "simulation.h"
 #include "food.h"
 
 Creature::Creature(Simulation* simulation, int hungerSpeedIncrement) : GameObject(simulation),
@@ -11,7 +11,6 @@ Creature::Creature(Simulation* simulation, int hungerSpeedIncrement) : GameObjec
 	hungerPourcent = 0;
 	isParent = false;
 }
-
 
 void Creature::update()
 {
@@ -40,7 +39,6 @@ void Creature::update()
 	//to add in conditions : check if there is an area when can spawn
 	if (creaturePosition.x >= 0)
 	{
-		//error because downcast
 		Creature& creature = *dynamic_cast<Creature*>(&simulation->map.getContentAtPosition(creaturePosition));
 		if (!creature.isParenthood())
 		{
@@ -137,7 +135,6 @@ Vector2D Creature::findnearbyCreaturePosition()
 
 	return Vector2D(-1, -1);
 }
-
 
 void Creature::randomMove()
 {
