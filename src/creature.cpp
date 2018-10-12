@@ -2,8 +2,8 @@
 #include "creature.h"
 #include "constant.h"
 #include "gameobjectbuilder.h"
-#include "simulation.h"
 #include "food.h"
+#include "simulation.h"
 
 Creature::Creature(Simulation* simulation, int hungerSpeedIncrement) : GameObject(simulation),
                                                                        hungerSpeedIncrement(hungerSpeedIncrement)
