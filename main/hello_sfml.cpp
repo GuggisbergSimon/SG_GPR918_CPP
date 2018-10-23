@@ -8,7 +8,7 @@ int main()
 {
 	sf::Clock clock;
     sf::RenderWindow window(sf::VideoMode(800, 600), "My window");
-	window.setFramerateLimit(2u);
+	window.setFramerateLimit(30u);
 	sf::Sprite spriteTest;
 	sf::Sprite spriteTest2;
 	sf::Texture textureTest;
